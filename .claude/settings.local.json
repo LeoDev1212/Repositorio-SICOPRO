@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(cd *)",
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(python -c ' *)",
+      "PowerShell(Invoke-WebRequest -UseBasicParsing -Uri http://localhost:8000/api/estimaciones/ -Method GET | Select-Object StatusCode)",
+      "PowerShell(docker compose ps *)",
+      "PowerShell(Get-Command *)"
+    ]
+  }
+}
